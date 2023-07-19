@@ -16,13 +16,15 @@ li {
 }
 
 button {
-  font-family: InterSemiBold;
+  font-family: InterRegular;
   font-size: 13px;
   padding: 8px;
   margin-left: 5px;
   margin-right: 5px;
   border-radius: 30px;
-  border:none
+  border:none;
+  color: white;
+  background-color: grey;
 }
 
 .title {
@@ -36,19 +38,22 @@ button {
   
 }
 
+
+
 #add-button {
   font-size: 20px;
+  color: black;
 }
 
 #task-list {
   color:white;
-  font-family: InterRegular;
+  font-family: InterBold;
   font-size: 15px;
 }
 
 #completed-list {
   color:white;
-  font-family: InterRegular;
+  font-family: InterBold;
   font-size: 15px;
 }
 
